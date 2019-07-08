@@ -61,6 +61,7 @@ public class EmailServiceImpl implements EmailService {
             Message messages[] = folder.search(ft);
 
             for (Message message : messages) {
+                //fdf
                 if(message.getSubject().contains("电子账单")){// 获得邮件主题
                     Address from = (Address) message.getFrom()[0];// 获得发送者地址
                     System.out.println("邮件的主题为: " + message.getSubject());// 获得邮件主题
