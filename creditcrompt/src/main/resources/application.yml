@@ -1,0 +1,7 @@
+spring:
+  mail:
+    host: imap.qq.com
+    username: 287052392@qq.com
+    password: gjkgrgnqykkrbjha
+    port: 993
+    protocol: imap
